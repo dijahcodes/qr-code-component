@@ -1,16 +1,41 @@
-body {
+html, body {
     background-color: #d6e2f0;
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   
 }
 
 .box {
+   
+    margin: 0;
     background-color: white;
     color: black;
-    width: 220px;
-    height: 350px;
-    margin: 10px;
+    width: 320px;
+    height: 480px;
+    margin: 20px;
     padding: 50px;
     border-radius: 20px;
     font-size: 15px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     
+}
+.container {
+    justify-content: center;
+   
+    
+}
+.container img {
+   
+    width: 380px;
+   
+    border-radius: 20px;
+    justify-content: center;
+
 }
